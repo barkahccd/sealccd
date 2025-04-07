@@ -22,25 +22,31 @@ function LandingPage() {
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Try Allowlist</h2>
-            <p>
-<h2>Tutorial</h2>
-1. Click 'Try it'
-
-2. Create Your Name Allow List
-
-3. Add New Sui Wallet
-
-4. Select Walrus service
-
-5. Upload file
-
-6. Click 'First step: Encrypt and upload to Walrus'
-
-7. Click 'Second step: Associate file to Sui object'
-
-8. Done
-            </p>
+            <h2>Allowlist Tutorial</h2>
+        <p>
+          - Click "Try it"
+        </p>
+        <p>
+          - Create Your Name Allow List
+        </p>
+        <p>
+          - Add New Sui Wallet
+        </p>
+        <p>
+          - Select Walrus service
+        </p>
+        <p>
+          - Upload file
+        </p>
+        <p>
+          - Click "First step: Encrypt and upload to Walrus"
+        </p>
+        <p>
+          - Click "Second step: Associate file to Sui object"
+        </p>
+        <p>
+          - Done
+        </p>
           </div>
           <Link to="/allowlist-example">
             <Button size="3">Try it</Button>
@@ -50,25 +56,32 @@ function LandingPage() {
       <Card>
         <Flex direction="column" gap="2" align="center" style={{ height: '100%' }}>
           <div style={{ textAlign: 'center' }}>
-            <h2>Try Subscription</h2>
-            <p>
-<h2>Tutorial</h2>
-1. Click 'Try it'
+            <h2>Subscription Tutorial</h2>
+        <p>
+          - Click "Try it"
+        </p>
+        <p>
+          - Enter Price in Mist
+        </p>
+        <p>
+          - Subscription duration in minutes
+        </p>
+        <p>
+          - Name of the Service
+        </p>
+        <p>
+          - Click Create Service
+        </p>
+        <p>
+          - Click "this link"
+        </p>
+        <p>
+          - Click and Download Decrypt
+        </p>
+        <p>
+          - Done
+        </p>
 
-2. Enter Price in Mist
-
-3. Subscription duration in minutes
-
-4. Name of the Service
-
-5. Click Create Service
-
-6. Click 'this link'
-
-7. Click and Download Decrypt
-
-8. Done
-            </p>
           </div>
           <Link to="/subscription-example">
             <Button size="3">Try it</Button>
@@ -86,7 +99,7 @@ function App() {
   return (
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
-        <h1 className="text-4xl font-bold m-4 mb-8">Yourly Seal CCD</h1>
+        <h1 className="text-4xl font-bold m-4 mb-8">Seal Example Apps</h1>
         {/* <p>TODO: add seal logo</p> */}
         <Box>
           <ConnectButton />
@@ -94,7 +107,8 @@ function App() {
       </Flex>
       <Card style={{ marginBottom: '2rem' }}>
         <p>
-          Follow Me On X @yourlyccd or https://x.com/yourlyccd
+          Follow Me On X Here.{' '}
+          <a href="https://x.com/yourlyccd">here</a>.
         </p>
       </Card>
       {currentAccount ? (
